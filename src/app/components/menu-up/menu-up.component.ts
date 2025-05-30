@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-menu-up',
   imports: [],
   templateUrl: './menu-up.component.html',
-  styleUrl: './menu-up.component.css'
+  styleUrls: ['./menu-up.component.css', './menu-up.responsive.component.css']
 })
 export class MenuUpComponent implements OnInit {
   constructor() {}

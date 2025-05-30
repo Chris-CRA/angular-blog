@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  .container__menu-up__links {
+    gap: 20px;
+  }
+  
+}

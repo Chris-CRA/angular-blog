@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-title',
   imports: [],
   templateUrl: './title.component.html',
-  styleUrl: './title.component.css'
+  styleUrls: ['./title.component.css', './title.responsive.component.css'],
 })
 export class TitleComponent implements OnInit {
   constructor() {}
