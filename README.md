@@ -1,59 +1,45 @@
 # AngularBlog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+<h2 align="left">Olá 👋! Sou a Christiane, estudante de Análise e Desenvolvimento de Sistemas, apaixonada por desenvolvimento web e explorando a área de Quality Assurance.</h2>
 
-## Development server
+## 📝 Sobre o projeto
 
-To start a local development server, run:
+Este repositório contém um **blog pessoal de estudos** desenvolvido com **Angular**, utilizando **componentes standalone** e **renderização do lado do servidor (SSR)**. O objetivo foi aplicar boas práticas de front-end moderno com navegação por rotas, exibição de cards dinâmicos e estilização customizada em CSS.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Chris-CRA&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="Estatísticas GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Chris-CRA&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="150" alt="Linguagens mais usadas" />
+</div>
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Tecnologias utilizadas:
 
-```bash
-ng generate component component-name
-```
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" height="30" alt="Angular" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="CSS3" />
+</div>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📫 Contato
 
-## Building
+<div align="left">
+  <a href="chriscra_amorim@yahoo.com.br" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="email" />
+  </a>
+  <a href="https://www.linkedin.com/in/christiane-rodrigues/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin" />
+  </a>
+</div>
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+<br clear="both">
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+<img src="https://raw.githubusercontent.com/Chris-CRA/Chris-CRA/output/snake.svg" alt="Snake animation" />
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
