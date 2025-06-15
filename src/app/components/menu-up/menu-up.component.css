@@ -9,6 +9,13 @@
   justify-content: center;
 }
 
+.logo {
+  height: 200px;
+  width: auto;
+  margin-right: 40px;
+  margin-top: 100px; 
+}
+
 .container__menu-up__links {
   display: flex;
   align-items: center;
@@ -27,3 +34,10 @@
 .menu-up__link:hover {
   color: #555; /* cinza mais escuro */
 }
+
+.menu-up__search input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+

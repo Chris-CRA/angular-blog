@@ -1,16 +1,13 @@
 <div class="container__big-card">
-    <div class="big-card__photo">
-        <img [src]="photoCover" alt="" height="250px">
+  <div class="big-card__photo">
+    <img [src]="photoCover" [alt]="cardTitle || 'Imagem do card'">
+  </div>
 
-    </div>
-    
-    <div class="big-card__title">
-       <h1><a href="https://web.dio.me/users/chriscra_amorim?tab=achievements">{{ cardTitle }}</a></h1>
+  <div class="big-card__title">
+    <h1><a [routerLink]="['/content', id]">{{ cardTitle }}</a></h1>
+  </div>
 
-    </div>
-    <div class="big-card__description">
-        <p><a href="https://web.dio.me/users/chriscra_amorim?tab=achievements"> {{ cardDescription }}</a></p>
-
-    </div>
-
+  <div class="big-card__description">
+    <p><a [routerLink]="['/content', id]">{{ cardDescription }}</a></p>
+  </div>
 </div>

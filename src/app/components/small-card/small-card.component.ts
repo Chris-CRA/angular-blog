@@ -1,28 +1,28 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router'; // 
 
 @Component({
   selector: 'app-small-card',
-  imports: [],
   templateUrl: './small-card.component.html',
-  styleUrl: './small-card.component.css'
+  styleUrls: ['./small-card.component.css'],
+  imports: [RouterModule], // 
 })
 export class SmallCardComponent implements OnInit {
 
-  @Input()
-  photoCover: string = '';
-  @Input()
-  cardDescription: string = '';
+  @Input() photoCover: string = '';
+  @Input() cardDescription: string = '';
+  @Input() cardLink: string = ''; 
+  @Input() id: string = '0';
 
-
-   viewCount: number = 0;
+  viewCount: number = 0;
   timeSince: string = '';
 
   dataPublicacao: Date = new Date(new Date().getTime() - 2 * 60 * 60 * 1000);
-  
+
   constructor() {}
 
   ngOnInit(): void {
-   this.viewCount = this.gerarVisualizacoes();
+    this.viewCount = this.gerarVisualizacoes();
     this.timeSince = this.calcularTempoDesde(this.dataPublicacao);
   }
 
@@ -46,6 +46,4 @@ export class SmallCardComponent implements OnInit {
       return `${dias} dias atrás`;
     }
   }
-  // Add any additional methods or properties as needed
-
 }

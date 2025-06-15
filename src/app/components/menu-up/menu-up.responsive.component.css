@@ -1,6 +1,24 @@
 @media screen and (max-width: 600px) {
-  .container__menu-up__links {
-    gap: 20px;
+  .container__menu-up {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
   }
-  
+
+  .container__menu-up__links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu-up__search {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-up__search input {
+    width: 80%;
+  }
 }
+

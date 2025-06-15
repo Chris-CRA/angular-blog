@@ -10,9 +10,7 @@ export class MenuUpComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    // Initialization logic can go here
+    
   }
-
-  // Add any additional methods or properties as needed
 
 }
