@@ -39,7 +39,3 @@ Este repositório contém um **blog pessoal de estudos** desenvolvido com **Angu
 
 ---
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Chris-CRA/Chris-CRA/output/snake.svg" alt="Snake animation" />
-
